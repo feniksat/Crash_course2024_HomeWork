@@ -22,7 +22,6 @@ public class ShoppingCartTest extends TestRunnerFirst {
 
         String expectedUrl = "https://demo.opencart.com/index.php?route=common/home&language=en-gb";
 
-        Assertions.assertEquals(expectedUrl, driver.getCurrentUrl(),
-                "HomePage is not loaded after clicking Continue button.");
+        Assertions.assertEquals(expectedUrl, driver.getCurrentUrl());
     }
 }
